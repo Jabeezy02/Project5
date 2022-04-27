@@ -91,6 +91,8 @@ public class SortingUtility {
             T temp = data[pos];
             data[pos] = data[pos-1];
             data[pos-1] = temp;
+            
+            pos = pos - 1;
 
         }
     }
